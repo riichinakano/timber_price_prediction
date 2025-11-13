@@ -6,7 +6,7 @@ from datetime import datetime
 
 # ページ設定
 st.set_page_config(
-    page_title="栃材原木販売価格予測システム",
+    page_title="🌳 Yoshino Tochi Timber Price Forecast",
     page_icon="🌳",
     layout="wide"
 )
@@ -27,7 +27,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # タイトル
-st.title("🌳 栃材原木販売価格予測システム")
+st.title("🌳 Yoshino Tochi Timber Price Forecast")
 st.markdown("---")
 
 # 予測モデルの定義
@@ -667,7 +667,7 @@ with tab3:
 st.markdown("---")
 st.markdown("""
 <div style='text-align: center; color: gray; padding: 20px;'>
-    <p><strong>栃材原木販売価格予測システム v1.2</strong></p>
+    <p><strong>🌳 Yoshino Tochi Timber Price Forecast v1.2</strong></p>
     <p>予測モデル: 重回帰分析（2024年12月版）</p>
     <p style='font-size: 0.8em;'>© 2025 All rights reserved.</p>
 </div>
